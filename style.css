@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+  box-sizing: border-box;
+}
+img {
+  max-width: 100%;
+  display: block;
+}
+
+body {
+  min-height: 100svh;
+  background-color: hsl(0, 3%, 16%);
+  color: hsl(60, 56%, 91%);
+}
+nav {
+  background-color: rgb(21, 20, 20);
+  height: 10;
+  display: flex;
+  align-items: left;
+  justify-content: left;
+}
+
+a {
+  color: bisque;
+  font-size: 13px;
+  text-decoration: none;
+  transition: 0.3s;
+}
+a:hover,
+a:focus {
+  color: azure;
+  font-size: 15px;
+}
