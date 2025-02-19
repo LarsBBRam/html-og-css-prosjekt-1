@@ -16,8 +16,8 @@ nav {
   background-color: rgb(21, 20, 20);
   height: 10;
   display: flex;
-  align-items: left;
-  justify-content: left;
+  align-items:  center;
+  justify-content: center;
 }
 
 a {
@@ -31,3 +31,98 @@ a:focus {
   color: azure;
   font-size: 15px;
 }
+
+article{
+  max-width: 300px;
+  margin-inline: auto;
+  padding: 1rem;
+  border-radius: 3px;
+}
+
+h1,h2,h3,h4{
+  text-align: center;
+}
+
+.images_start{
+  display: flex;
+  align-content: center;
+  justify-content: center;
+}
+
+.chaoswarrior{
+  flex: fill;
+  border: solid grey;
+  margin: 5px;
+} 
+
+.clawlordonbeast{
+  flex: fill;
+  border: solid lawngreen;
+  margin: 5px;
+}
+
+.ushoran{
+  flex:fill;
+  border: solid rgb(141, 6, 6);
+  margin: 5px;
+}
+ 
+.images_start{
+  filter:gray;
+  -webkit-filter: grayscale(1);
+  transition: 0.3s;
+  filter: grayscale(1); 
+}
+
+.chaoswarrior:hover,
+.chaoswarrior:focus{
+  -webkit-filter: grayscale(0);
+  filter: none;
+  transform:scale(103%);
+  overflow: auto; 
+}
+
+.clawlordonbeast:hover,
+.clawlordonbeast:focus{
+  -webkit-filter: grayscale(0);
+  filter:none;
+  transform:scale(103%);
+  overflow: auto;
+}
+
+.ushoran:hover,
+.ushoran:focus{
+  -webkit-filter: grayscale(0);
+  filter:none;
+  transform:scale(103%);
+  overflow: auto;
+}
+
+/* 
+.images_start{
+  border: 1px solid black;
+  margin:1rem;
+  padding:2rem 2rem;
+  text-align: center;
+}
+
+.chaoswarrior{
+  display: inline-block;
+  border: 1px solid black;
+  padding:1rem 1rem;
+  text-align: center;
+}
+
+.gnawlordonbeast {
+  display: inline-block;
+  border: 1px solid black;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+}
+
+.ushoran{
+  display: inline-block;
+  border: 1px solid black;
+  padding: 1rem 1rem;
+  vertical-align: middle;
+} */
