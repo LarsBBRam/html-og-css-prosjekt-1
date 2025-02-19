@@ -12,6 +12,7 @@ body {
   background-color: hsl(0, 3%, 16%);
   color: hsl(60, 56%, 91%);
 }
+/* Makes changes to the background of the main body */
 nav {
   background-color: rgb(21, 20, 20);
   height: 10;
@@ -19,18 +20,20 @@ nav {
   align-items:  center;
   justify-content: center;
 }
-
+/* aligns and changes the look of the navigation bar */
 a {
   color: bisque;
   font-size: 13px;
   text-decoration: none;
   transition: 0.3s;
 }
+/* Changes the color and appearance of text-based links */
 a:hover,
 a:focus {
   color: azure;
   font-size: 15px;
 }
+/* slightly increases the size and color of a link on hover or tabbing */
 
 article{
   max-width: 300px;
@@ -38,12 +41,15 @@ article{
   padding: 1rem;
   border-radius: 3px;
 }
+/* Sets a maximum width for the articles, an inline for the margins, and the amount of padding
+plus also  sets a radius for the border around */
 
 h1,h2,h3,h4{
   text-align: center;
 }
+/* aligns the four first headings to the center of the screen */
 
-.images_start{
+.images_section{
   display: flex;
   align-content: center;
   justify-content: center;
@@ -74,6 +80,11 @@ h1,h2,h3,h4{
   filter: grayscale(1); 
 }
 
+.images_start:focus,
+.images_start:hover {
+  -webkit-filter: grayscale(0);
+}
+/* 
 .chaoswarrior:hover,
 .chaoswarrior:focus{
   -webkit-filter: grayscale(0);
@@ -96,7 +107,7 @@ h1,h2,h3,h4{
   filter:none;
   transform:scale(103%);
   overflow: auto;
-}
+} */
 
 /* 
 .images_start{
